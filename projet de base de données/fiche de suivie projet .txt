@@ -1,0 +1,11 @@
+*creation de base de données , creatoni de tables , met la remation entre la table client et aniamlerie avec cliets ,
+
+chat gpt : 
+generer les valeurs a mettre dans ma base de données , demander de corriger l"énumeration de id animal parceque il commencais par 81 ; 
+
+10 decembre 
+commencement de création d'un site web , javascript , css , html:
+
+
+
+ 

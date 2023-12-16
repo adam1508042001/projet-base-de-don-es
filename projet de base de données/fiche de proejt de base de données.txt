@@ -1,0 +1,12 @@
+projet bases de données
+projet matching 
+dead-line : 20 decembre 2023
+
+notes sur le projet 
+vous effectuez une recherche, le système vous retournera des résultats « correspondants » à cette recherche. 
+ réaliser un site Web de matching
+Créer un contenu (qui apparaitra dans les recherches)
+Faire une recherche (qui affichera les contenus correspondants) 
+
+
+en gros in créé un site web, l'utilisateur vient et tape le mot clé de recherche 
