@@ -1,7 +1,12 @@
-p{
-    color:aqua; 
+p ,title{
+    color:rgb(144, 15, 224); 
 }
 
-modification_color{ color: blue;
+.modification_color{ color: blue;
 
+}
+
+
+.span_class{
+    color: brown;
 }
