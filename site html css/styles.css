@@ -38,3 +38,9 @@ body{
     opacity: 1;
     background: linear-gradient( #FF0099,#f3f3ee)
 }
+
+.border{
+    background-color: beige;
+    border: 05px solid firebrick;
+    box-shadow: 10px 10px 15px  gray;
+    border-radius: 20px;}
