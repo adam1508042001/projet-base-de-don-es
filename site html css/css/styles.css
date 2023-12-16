@@ -1,9 +1,7 @@
-p,
-title,
-h1{
+p{
     color:aqua; 
 }
 
-.modification_couleur{ color: blue;
+h2.modification_color{ color: blue;
 
 }
