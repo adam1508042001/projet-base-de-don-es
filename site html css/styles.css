@@ -1,3 +1,5 @@
+/*la coloration ne marche pas pour le titre */
+
 p ,title{
     color:rgb(144, 15, 224); 
 }
@@ -10,3 +12,15 @@ p ,title{
 .span_class{
     color: brown;
 } 
+
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-style: italic;
+    
+}
+
+.italique_mot{
+    font-weight: lighter ;
+}
