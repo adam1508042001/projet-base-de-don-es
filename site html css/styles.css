@@ -32,15 +32,35 @@ p{
 
 body{
     background-color: rgb(134, 128, 136)  ;
-    /* background-image: url(parrot.jpg);
+    background-image: url(parrot.jpg);
     background-size:cover ;
-    background-position: center; */
+    background-position: center;
     opacity: 1;
-    background: linear-gradient( #FF0099,#f3f3ee)
+    /* background: linear-gradient( #FF0099,#f3f3ee) */
 }
 
-.border{
+/* .border{
     background-color: beige;
     border: 05px solid firebrick;
     box-shadow: 10px 10px 15px  gray;
-    border-radius: 20px;}
+    border-radius: 20px;} */
+
+
+    img:hover{
+        opacity: 0.5;
+    }
+
+    a:hover{
+        color: #FF0099;
+        text-decoration: underline;
+    }
+
+
+    p:hover{ 
+        color: aliceblue;
+        opacity: 0.4;
+    }
+
+    .femme {
+        background-attachment: fixed;
+    }
