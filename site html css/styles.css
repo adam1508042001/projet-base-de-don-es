@@ -34,8 +34,10 @@ body{
     background-color: rgb(134, 128, 136)  ;
     background-image: url(parrot.jpg);
     background-size:cover ;
-    background-position: center;
+    background-position:inherit ;
     opacity: 1;
+     background-attachment: revert;
+
     /* background: linear-gradient( #FF0099,#f3f3ee) */
 }
 
@@ -48,6 +50,7 @@ body{
 
     img:hover{
         opacity: 0.5;
+
     }
 
     a:hover{
@@ -58,7 +61,7 @@ body{
 
     p:hover{ 
         color: aliceblue;
-        opacity: 0.4;
+        opacity: 1;
     }
 
     .femme {

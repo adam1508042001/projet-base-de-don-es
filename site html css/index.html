@@ -6,7 +6,7 @@
 
         <meta charset="utf-8">  
         <!-- encodage : utf pour les caractères spéciaux. -->
-        <title>ZOOSHOP ADAM</title>
+        <title>ZOOSHOP ADAM </title>
 
         <!-- faire appel au fichier css  -->
       <link rel="stylesheet" href="styles.css"/>
@@ -17,13 +17,14 @@
     <body>
         <link rel="stylesheet" href="styles.css"/>
 <h1>
-    ZOOSHOP vous souhaite une agreable experience
+    ZOOSHOP vous souhaite une agreable experience <?php echo"hello  there from ZOOSHOP  cest le grand jour"; ?>
+aujourd'hui on est le <?php echo date('d/m/Y h:i:s'); ?>
 </h1>
 
 <h2>
    <span class="modification_color"> commonçons? 
 </h2>
-
+<p> <img src="D:\_documents\bureau\projet base de donées\site html css\giphy.gif" alt="cherche" style="width:2cm;height:3cm;"></p>
 <p class="modification_color">
    <strong> ZOOSHOP votre <span class="span_class"> premiere </span> destination pour trouver <span class="italique_mot"> les informations </span>  des chiens dans notre chere ville </strong>
  </p>
@@ -31,6 +32,10 @@
 <ul class="modification_color">
     <li> chien </li>
     <li> chat </li>
+    <li> ragondin </li> 
+    <li>cameleon </li>
+    <li> lizard</li> 
+    <li> autres animaux </li>
     <li> <mark><em></em><strong>serpents: </strong> </mark><em></em></mark> </li>
 </ul>
 
@@ -50,7 +55,7 @@
 <a href="D:\_documents\bureau\projet base de donées\site html css\fichier_page2.html "> suivant : page 2</a>
 
 
-<!-- ou on utilise directement le nomù de fochier  -->
+<!-- ou on utilise directement le nom du fichier  -->
     <a href="fichier_page2.html">page 2</a>
 
 
@@ -59,12 +64,18 @@
 <!-- <a href="ancre_serpent_europeen"> lien vers serpents europeens</a> -->
 
 <!-- ajout des images  -->
-
+<figure>
     <p>
-    <a href="D:\_documents\telechargements/femme.jpg" >
-<img class="femme" src="D:\_documents\telechargements/femme.jpg" alt="image d'une femme qui porte un parapluie" width="150" title="une femme un parapluie" />
-    </a>
-    </p>
+        <a href="D:\_documents\telechargements/femme.jpg" >
+    <img class="femme" src="D:\_documents\telechargements/femme.jpg" alt="image d'une femme qui porte un parapluie" width="150" title="une femme un parapluie" />
+        </a>
+        </p>
+
+    <figcaption> 
+        une photo d'une femme qui tient dans ses petites mains un parapluie
+    </figcaption>
+</figure>
+
 <ul>
 <li id="ancre_serpent_europeen"> serpent europien </li>
 </ul>
