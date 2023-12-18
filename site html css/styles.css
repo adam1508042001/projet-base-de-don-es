@@ -67,3 +67,9 @@ body{
     .femme {
         background-attachment: fixed;
     }
+
+
+    .video1{
+        margin:auto; 
+        display:flex ;
+    }
